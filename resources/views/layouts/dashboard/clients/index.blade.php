@@ -113,8 +113,6 @@
     </script>
     <script>
         $(document).ready(function() {
-
-
             $('.delete-btn').on('click', function() {
                 // Get client data from button attributes
                 let clientId = $(this).data('id');

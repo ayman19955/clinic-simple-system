@@ -24,6 +24,12 @@
                     <ul class="nav nav-treeview">
 
                         <li class="nav-item">
+                            <a href="{{ Route('dashboard') }}" class="nav-link {{ request()->routeIs('dashboard') ? 'active' : '' }}">
+                                <i class="nav-icon bi bi-speedometer2"></i>
+                                <p>لوحة التحكم</p>
+                            </a>
+                        </li>
+                        <li class="nav-item">
                             <a href="{{ Route('clients.index') }}" class="nav-link {{ request()->routeIs('clients.index') ? 'active' :'' }}">
                                 <i class="nav-icon bi bi-people-fill"></i>
                                 <p>العملاء</p>
