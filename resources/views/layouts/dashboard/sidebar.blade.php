@@ -31,37 +31,37 @@
                         </li>
                         <li class="nav-item">
                             <a href="{{ Route('clients.index') }}" class="nav-link {{ request()->routeIs('clients.index') ? 'active' :'' }}">
-                                <i class="nav-icon bi bi-people-fill"></i>
+                                <i class="nav-icon bi bi-people"></i>
                                 <p>العملاء</p>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a href="{{ Route('practitioners.index') }}" class="nav-link {{ request()->routeIs('practitioners.index') ? 'active' :'' }}">
-                                <i class="nav-icon bi bi-people-fill"></i>
+                                <i class="nav-icon bi bi-person-badge"></i>
                                 <p>الممارسين</p>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a href="{{ Route('appointments.index') }}" class="nav-link {{ request()->routeIs('appointments.index') ? 'active' :'' }}">
-                                <i class="nav-icon bi bi-people-fill"></i>
+                                <i class="nav-icon bi bi-calendar-check"></i>
                                 <p>المواعيد</p>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a href="{{ Route('treatments.index') }}" class="nav-link {{ request()->routeIs('treatments.index') ? 'active' :'' }}">
-                                <i class="nav-icon bi bi-people-fill"></i>
+                                <i class="nav-icon bi bi-journal-medical"></i>
                                 <p>العلاجات</p>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a href="{{ Route('payments.index') }}" class="nav-link {{ request()->routeIs('payments.index') ? 'active' :'' }}">
-                                <i class="nav-icon bi bi-people-fill"></i>
+                                <i class="nav-icon bi bi-wallet2"></i>
                                 <p>المدفوعات</p>
                             </a>
                         </li>
                         <li class="nav-item">
                             <a href="{{ Route('inventories.index') }}" class="nav-link {{ request()->routeIs('inventories.index') ? 'active' :'' }}">
-                                <i class="nav-icon bi bi-people-fill"></i>
+                                <i class="nav-icon bi bi-box-seam"></i>
                                 <p>المخزون</p>
                             </a>
                         </li>
